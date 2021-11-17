@@ -4,7 +4,7 @@ script.src = 'https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js'
 script.type = 'text/javascript';
 document.getElementsByTagName('head')[0].appendChild(script);
 document.writeln('<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>');
-document.writeln('<script type="text/javascript" src="https://lord-media.com/cdn/iframeTracker-jquery.js"></script>');
+document.writeln('<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/mohamedwahedeg/lord-media/cdn/iframeTracker-jquery.js"></script>');
 
 $( document ).ready(function() {
 
