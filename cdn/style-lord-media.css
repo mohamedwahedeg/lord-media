@@ -28,14 +28,7 @@ padding-top: 0px !important;
   .grecaptcha-badge {
     visibility: hidden !important;
   }
- 
-#ubp_logo {
-  display: none !important;
-}
-#ubp_logo img {
-  display: none !important;
-}
- 
+
 #lord-media-anchor-sticky-top {
     position: fixed;
     top: 0;
