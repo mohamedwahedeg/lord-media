@@ -1,34 +1,27 @@
 .pa_label{
 	display:none !important;
 }
-
 .proads-space .ps-font-sans {
     display: none !important;
 }
-
 .proads-space a {
     display: none !important;
 }
-
 .ps-m-auto .ps-text-right .ps-text-xxxs .ps-leading-none .ps-flex .ps-justify-between{
     display: none !important;
 }
-
 #protag-before_content {
 padding-top: 0px !important;
 }
 #protag-in_content{
 padding-top: 0px !important;
 }
-
 .proads-space .ps-text-right {
     display: none !important;
 }
-
-  .grecaptcha-badge {
-    visibility: hidden !important;
-  }
-
+.grecaptcha-badge {
+ visibility: hidden !important;
+}
 #lord-media-anchor-sticky-top {
     position: fixed;
     top: 0;
@@ -40,7 +33,6 @@ padding-top: 0px !important;
     left: 0;
     margin: 5px 0px;
   }
-  
   #lord-media-anchor-sticky-buttom {
     position: fixed;
     bottom: 0;
@@ -52,7 +44,6 @@ padding-top: 0px !important;
     left: 0;
     margin: 5px 0px;
   }
-  
   .sticky-ads-close { 
 width: 30px; height: 30px; 
 display: flex; 
@@ -62,7 +53,6 @@ border-radius: 12px 0 0;
 position: absolute; right: 0;
 background-color: #fefefe; 
 box-shadow: 0 -6px 18px 0 rgba(9,32,76,.08); } 
-
 .sticky-ads .sticky-ads-close svg { 
 width: 22px; height: 22px; fill: #000; 
 } 
