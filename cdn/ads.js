@@ -15,7 +15,7 @@ document.writeln('<script type="text/javascript" src="https://cdn.jsdelivr.net/g
       window.googletag = window.googletag || {cmd: []};
       var interstitialSlot, staticSlot;
       googletag.cmd.push(function() {
-interstitialSlot = googletag.defineOutOfPageSlot( '/22561025441/'+ w +', googletag.enums.OutOfPageFormat.INTERSTITIAL);
+interstitialSlot = googletag.defineOutOfPageSlot( '/22649732511/'+ w +', googletag.enums.OutOfPageFormat.INTERSTITIAL);
       if (interstitialSlot) {
           interstitialSlot.addService(googletag.pubads());
           googletag.pubads().addEventListener('slotOnload', function(event) {
@@ -25,7 +25,7 @@ interstitialSlot = googletag.defineOutOfPageSlot( '/22561025441/'+ w +', googlet
           });
          console.log(interstitialSlot);
         }
-        staticSlot = googletag.defineSlot('/22561025441/'+ w +', [[300, 250], [336, 280]], 'static-ad-1').addService(googletag.pubads());
+        staticSlot = googletag.defineSlot('/22649732511/'+ w +', [[300, 250], [336, 280]], 'static-ad-1').addService(googletag.pubads());
         googletag.pubads().enableSingleRequest();
         googletag.enableServices();
       });
@@ -72,14 +72,14 @@ console.log("in mobile");
 
 window.googletag = window.googletag || {cmd: []};
     googletag.cmd.push(function() {
-    googletag.defineSlot('/22561025441/'+ w +', [468, 60], 'gpt-passback-lord-media-anchor-sticky-top').addService(googletag.pubads());
+    googletag.defineSlot('/22649732511/'+ w +', [468, 60], 'gpt-passback-lord-media-anchor-sticky-top').addService(googletag.pubads());
     googletag.enableServices();
     googletag.display('gpt-passback-lord-media-anchor-sticky-top');
     });
 
 window.googletag = window.googletag || {cmd: []};
     googletag.cmd.push(function() {
-    googletag.defineSlot('/22561025441/'+ w +', [468, 60], 'gpt-passback-lord-media-anchor-sticky-buttom').addService(googletag.pubads());
+    googletag.defineSlot('/22649732511/'+ w +', [468, 60], 'gpt-passback-lord-media-anchor-sticky-buttom').addService(googletag.pubads());
     googletag.enableServices();
     googletag.display('gpt-passback-lord-media-anchor-sticky-buttom');
     });
@@ -89,14 +89,14 @@ console.log("in web");
 
 window.googletag = window.googletag || {cmd: []};
     googletag.cmd.push(function() {
-    googletag.defineSlot('/22561025441/'+ w +', [[728, 90], [468, 60]], 'gpt-passback-lord-media-anchor-sticky-top').addService(googletag.pubads());
+    googletag.defineSlot('/22649732511/'+ w +', [[728, 90], [468, 60]], 'gpt-passback-lord-media-anchor-sticky-top').addService(googletag.pubads());
     googletag.enableServices();
     googletag.display('gpt-passback-lord-media-anchor-sticky-top');
     });
 
 window.googletag = window.googletag || {cmd: []};
     googletag.cmd.push(function() {
-    googletag.defineSlot('/22561025441/'+ w +', [[728, 90], [468, 60]], 'gpt-passback-lord-media-anchor-sticky-buttom').addService(googletag.pubads());
+    googletag.defineSlot('/22649732511/'+ w +', [[728, 90], [468, 60]], 'gpt-passback-lord-media-anchor-sticky-buttom').addService(googletag.pubads());
     googletag.enableServices();
     googletag.display('gpt-passback-lord-media-anchor-sticky-buttom');
     });
