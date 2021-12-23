@@ -1,9 +1,3 @@
-let url_string = window.location;
-let url = new URL(url_string);
-let w = url.searchParams.get("w");
-console.log(w);
-alert(w);
-
 var scriptGPT = document.createElement('script');scriptGPT.setAttribute("async", "async");
 scriptGPT.src = 'https://securepubads.g.doubleclick.net/tag/js/gpt.js';
 scriptGPT.type = 'text/javascript';
