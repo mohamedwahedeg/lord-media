@@ -1,4 +1,3 @@
-alert(w);
 
 var scriptGPT = document.createElement('script');scriptGPT.setAttribute("async", "async");
 scriptGPT.src = 'https://securepubads.g.doubleclick.net/tag/js/gpt.js';
