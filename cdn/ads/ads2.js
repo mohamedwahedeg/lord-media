@@ -1,3 +1,11 @@
+document.writeln('<script data-ad-client="ca-pub-3547058605891393" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3547058605891393" crossorigin="anonymous"></script>');
+
+
+var scripta = document.createElement('script');
+scripta.src = 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3547058605891393';
+scripta.type = 'text/javascript';
+document.getElementsByTagName('head')[0].appendChild(scripta);
+
 
 var scriptGPT = document.createElement('script');scriptGPT.setAttribute("async", "async");
 scriptGPT.src = 'https://securepubads.g.doubleclick.net/tag/js/gpt.js';
