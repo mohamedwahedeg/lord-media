@@ -111,6 +111,14 @@ window.googletag = window.googletag || {cmd: []};
 };
 
 
+setInterval(function() {
+var refreshAllSlots = function() {
+      googletag.cmd.push(function() {
+        googletag.pubads().refresh();
+      });
+    };
+}, 40000);
+
 googletag.cmd.push(function() {
           googletag.display(staticSlot);
 });
