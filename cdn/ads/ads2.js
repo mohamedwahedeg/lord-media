@@ -57,11 +57,6 @@ document.getElementsByTagName("body")[0].appendChild(elemDiv2);
 document.getElementById('lord-media-anchor-sticky-top').innerHTML = "<div class='sticky-ads-close' style='display: none;' onclick='document.getElementById(&quot;lord-media-anchor-sticky-top&quot;).style.display=&quot;none&quot;'><svg viewBox='0 0 512 512' xmlns='http://www.w3.org/2000/svg'><path d='M278.6 256l68.2-68.2c6.2-6.2 6.2-16.4 0-22.6-6.2-6.2-16.4-6.2-22.6 0L256 233.4l-68.2-68.2c-6.2-6.2-16.4-6.2-22.6 0-3.1 3.1-4.7 7.2-4.7 11.3 0 4.1 1.6 8.2 4.7 11.3l68.2 68.2-68.2 68.2c-3.1 3.1-4.7 7.2-4.7 11.3 0 4.1 1.6 8.2 4.7 11.3 6.2 6.2 16.4 6.2 22.6 0l68.2-68.2 68.2 68.2c6.2 6.2 16.4 6.2 22.6 0 6.2-6.2 6.2-16.4 0-22.6L278.6 256z'/></svg></div> <div id='gpt-passback-lord-media-anchor-sticky-top'></div>";
 
 document.getElementById('lord-media-anchor-sticky-buttom').innerHTML = "<div class='sticky-ads-close' style='display: none;' onclick='document.getElementById(&quot;lord-media-anchor-sticky-buttom&quot;).style.display=&quot;none&quot;'><svg viewBox='0 0 512 512' xmlns='http://www.w3.org/2000/svg'><path d='M278.6 256l68.2-68.2c6.2-6.2 6.2-16.4 0-22.6-6.2-6.2-16.4-6.2-22.6 0L256 233.4l-68.2-68.2c-6.2-6.2-16.4-6.2-22.6 0-3.1 3.1-4.7 7.2-4.7 11.3 0 4.1 1.6 8.2 4.7 11.3l68.2 68.2-68.2 68.2c-3.1 3.1-4.7 7.2-4.7 11.3 0 4.1 1.6 8.2 4.7 11.3 6.2 6.2 16.4 6.2 22.6 0l68.2-68.2 68.2 68.2c6.2 6.2 16.4 6.2 22.6 0 6.2-6.2 6.2-16.4 0-22.6L278.6 256z'/></svg></div> <div id='gpt-passback-lord-media-anchor-sticky-buttom'></div>";
-
-googletag.cmd.push(function() {
-          googletag.display(staticSlot);
-});
-
 //
 
 window.onscroll = function(event) {
@@ -114,6 +109,11 @@ window.googletag = window.googletag || {cmd: []};
 
 //      
 };
+
+
+googletag.cmd.push(function() {
+          googletag.display(staticSlot);
+});
 
 document.writeln('<script async src="https://www.googletagmanager.com/gtag/js?id=UA-66661717-19"></script>');
 window.dataLayer = window.dataLayer || [];
