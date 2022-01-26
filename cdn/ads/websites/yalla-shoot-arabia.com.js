@@ -5,7 +5,7 @@ document.getElementsByTagName('head')[0].appendChild(scripta);
 
     window.googletag = window.googletag || { cmd: [] };
     window.googletag.cmd.push(function () {
-        window.googletag.pubads().enableSingleRequest();
+        
     });
 
 var scripta2 = document.createElement('script');
