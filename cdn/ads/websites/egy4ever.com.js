@@ -7,9 +7,7 @@ document.getElementsByTagName('head')[0].appendChild(scripta);
         window.googletag = window.googletag || {cmd: []};
       var interstitialSlot, staticSlot;
       googletag.cmd.push(function() {
-        interstitialSlot = googletag.defineOutOfPageSlot(
-            '/22649732511/egy4ever.com',
-            googletag.enums.OutOfPageFormat.INTERSTITIAL);
+        interstitialSlot = googletag.defineOutOfPageSlot('/22649732511/egy4ever.com',googletag.enums.OutOfPageFormat.INTERSTITIAL);
         if (interstitialSlot) {
           interstitialSlot.addService(googletag.pubads());
           googletag.pubads().addEventListener('slotOnload', function(event) {
@@ -18,9 +16,7 @@ document.getElementsByTagName('head')[0].appendChild(scripta);
             }
           });
         }
-        staticSlot = googletag.defineSlot(
-            '/22649732511/egy4ever.com', [100, 100], 'static-ad-1')
-          .addService(googletag.pubads());
+        staticSlot = googletag.defineSlot('/22649732511/egy4ever.com', [100, 100], 'static-ad-1').addService(googletag.pubads());
         //googletag.pubads().enableSingleRequest();
         googletag.enableServices();
       });
