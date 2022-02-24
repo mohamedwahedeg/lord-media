@@ -14,13 +14,6 @@ vast.src='https://unpkg.com/@glomex/vast-ima-player@1/dist/vast-ima-player.umd.j
 vast.type='text/javascript';
 document.getElementsByTagName('head')[0].appendChild(vast);
 
-var videoContainer=document.createElement("videoContainer");
-videoContainer.id="lord-media-anchor-sticky-buttom";
-videoContainer.class="videoContainer";
-document.getElementsByTagName("body")[0].appendChild(videoContainer);
-
-document.getElementById('videoContainer').innerHTML="<div id="closevideox" style="display:none;bottom: 150px;right: 10px;position: absolute;" onclick='document.getElementById(&quot;videoContainer&quot;).style.display=&quot;none&quot;'> X </div><video style="width:100%; height:100%;" id="mediaElement" controls playsinline poster="https://glomex.github.io/vast-ima-player/big-buck-bunny.png" preload="none" muted="muted"><source type="video/mp4" src="https://glomex.github.io/vast-ima-player/big-buck-bunny.mp4"></video><div id="adContainer" style="position:absolute; left:0; top:0;"></div>";
-
 
 
       var adsRenderingSettings = new google.ima.AdsRenderingSettings();
