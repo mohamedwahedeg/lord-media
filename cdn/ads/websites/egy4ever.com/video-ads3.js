@@ -9,9 +9,8 @@ ima3.src='https://imasdk.googleapis.com/js/sdkloader/ima3.js';
 ima3.type='text/javascript';
 document.getElementsByTagName('head')[0].appendChild(ima3);
 
-var imported1 = document.createElement('script');
-imported1.src = 'https://unpkg.com/@glomex/vast-ima-player@1/dist/vast-ima-player.umd.js';
-document.head.appendChild(imported1);
+<script src="https://unpkg.com/@glomex/vast-ima-player@1/dist/vast-ima-player.umd.js"></script>
+
 
       var adsRenderingSettings = new google.ima.AdsRenderingSettings();
       var playAdsRequest = new google.ima.AdsRequest();
