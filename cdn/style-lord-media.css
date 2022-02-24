@@ -61,3 +61,12 @@ overflow: hidden; display: block;
 position: relative; height: 70px; width: 100%; 
 margin-right: 10px; margin-left: 10px; 
 }
+
+  .stuck {
+	position: fixed !important;
+    bottom: 20px !important;
+    right: 10px !important;
+    width: 300px !important;
+    height: 250px !important;
+    animation: fade-in-up .25s ease forwards;
+  }
