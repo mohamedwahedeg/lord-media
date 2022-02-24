@@ -1,6 +1,10 @@
 window.onload = function() {
-document.writeln('<script src="https://unpkg.com/@glomex/vast-ima-player@1/dist/vast-ima-player.umd.js"></script>');
 
+var ima2=document.createElement('script');
+ima2.src='https://unpkg.com/@glomex/vast-ima-player@1/dist/vast-ima-player.umd.js';
+ima2.type='text/javascript';
+document.getElementsByTagName('head')[0].appendChild(ima2);
+	
 };
 
 var scriptGPT=document.createElement('script');
