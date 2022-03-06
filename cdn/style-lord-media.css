@@ -70,3 +70,7 @@ margin-right: 10px; margin-left: 10px;
     height: 250px !important;
     animation: fade-in-up .25s ease forwards;
   }
+
+#lord-media-video-ads {
+z-index: 999999999999999999999999999 !important;
+}
