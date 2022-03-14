@@ -13,4 +13,5 @@ var adsRenderingSettings = new google.ima.AdsRenderingSettings();
       );
 window.onload = function() {
 imaPlayer.playAds(playAdsRequest);
+setTimeout("document.getElementById('closevideox').style.display='block';", 10000);
 }
