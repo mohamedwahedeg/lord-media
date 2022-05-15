@@ -10,7 +10,7 @@ var adranddiv = Math.floor(Math.random() * 1000);
 
 var divaya=document.createElement("div");
 divaya.id=mainranddiv;
-divaya.innerHTML = '<div style=""> <a href="https://lord-media.com/"> <img style="max-width: 25px;" src="https://i63.servimg.com/u/f63/19/35/39/93/27743110.jpg"> Ads By Lord Media</a> </div> <div id="'+ adranddiv + '"></div> ';
+divaya.innerHTML = '<div style=""> <a href="https://lord-media.com/" target="_blank"> <img style="max-width: 25px;" src="https://i63.servimg.com/u/f63/19/35/39/93/27743110.jpg"> Ads By Lord Media</a> </div> <div id="'+ adranddiv + '"></div> ';
 document.getElementsByTagName("body")[0].appendChild(divaya);  
 
 window.googletag = window.googletag || {cmd: []};
