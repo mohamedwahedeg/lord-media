@@ -4,3 +4,5 @@ alert(lord-media-i);
 alert(lord-media-f-t);
 alert(lord-media-f-b);
 alert(lord-media-v);
+console.log(w);
+alert(w);
