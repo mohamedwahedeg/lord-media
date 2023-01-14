@@ -49,7 +49,7 @@ googletag.defineSlot('/'+ n +'/'+ w,[[728,90],[468, 60],[300, 100],[320, 100]],'
 googletag.defineSlot('/'+ n +'/'+ w,[[728,90],[468, 60],[300, 100],[320, 100]],'gpt-passback-lord-media-anchor-sticky-buttom').addService(googletag.pubads());
 
 // end sticky //
-googletag.pubads().enableSingleRequest();
+//googletag.pubads().enableSingleRequest();
 googletag.enableServices();
 });
   
